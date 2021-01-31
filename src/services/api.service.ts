@@ -3,7 +3,8 @@ import { Injectable } from '@reactblog/core/annotations';
 @Injectable
 export class ApiService {
 
-  get (url: string) {
+  async get (url: string) {
+    console.log(url);
     return 'hi';
   }
 }
