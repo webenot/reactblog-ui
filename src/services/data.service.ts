@@ -2,7 +2,7 @@ import { matchRoutes, RouteConfig } from 'react-router-config';
 
 import { Injectable, resolve } from '@reactblog/core/annotations';
 import { CONTAINER_CONTEXT } from '@reactblog/core/container';
-import { LocationService } from '@reactblog/ui/services/location.service';
+import { LocationService } from './location.service';
 
 @Injectable
 export class DataService {
